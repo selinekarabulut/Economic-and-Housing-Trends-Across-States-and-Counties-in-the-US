@@ -25,7 +25,7 @@ This Shiny application is designed to visualize and analyze socioeconomic and ho
     - Regression Analysis Tab: Allows users to explore relationships between different variables using linear regression or LOESS.
     - About Tab: Provides information about the data sources, calculations, and the purpose of the dashboard.
 
--Server Logic:
+- Server Logic:
  - Data Loading and Reshaping: Loads the dataset and reshapes it to have a unified Year column.
  - Dynamic UI Updates: Updates the county dropdown based on the selected state.
  - Plot Rendering: Creates interactive plots using plotly to display trends in home values, incomes, poverty rates, and demographic changes.
