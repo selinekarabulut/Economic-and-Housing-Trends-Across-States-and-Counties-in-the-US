@@ -1,2 +1,3 @@
-# Economic-and-Housing-Trends-Across-States-and-Counties-in-the-US
-shiny app for Economic and Housing Trends Across States and Counties in the US
+# Shiny app to Explore Economic and Housing Trends Across States and Counties in the US (2012-2022)
+
+
