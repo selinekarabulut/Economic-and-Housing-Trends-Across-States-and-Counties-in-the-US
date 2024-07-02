@@ -11,24 +11,21 @@ This Shiny application is designed to visualize and analyze socioeconomic and ho
 
 ## Key Features
 - User Interface (UI):
+  - Theme: The app uses the 'spacelab' theme from shinythemes for a modern and clean look.
+  - Title Panel: Displays the title of the app.
+  - Sidebar Panel:
+    - Dropdown menus to select a state and a county.
+    - Slider to filter the data by a year range.
+    - Button to download the filtered data.
 
-Theme: The app uses the 'spacelab' theme from shinythemes for a modern and clean look.
-Title Panel: Displays the title of the app.
-Sidebar Panel:
-Dropdown menus to select a state and a county.
-Slider to filter the data by a year range.
-Button to download the filtered data.
-Main Panel:
-
-- Tabs:
-
-Trends Tab: Displays summary statistics and line plots for income and home value trends, and for poverty and demographic trends.
-Data Table Tab: Shows the filtered data in a table format.
-Regression Analysis Tab: Allows users to explore relationships between different variables using linear regression or LOESS.
-About Tab: Provides information about the data sources, calculations, and the purpose of the dashboard.
+- Main Panel:
+  - Tabs:
+    - Trends Tab: Displays summary statistics and line plots for income and home value trends, and for poverty and demographic trends.
+    - Data Table Tab: Shows the filtered data in a table format.
+    - Regression Analysis Tab: Allows users to explore relationships between different variables using linear regression or LOESS.
+    - About Tab: Provides information about the data sources, calculations, and the purpose of the dashboard.
 
 -Server Logic:
-
  - Data Loading and Reshaping: Loads the dataset and reshapes it to have a unified Year column.
  - Dynamic UI Updates: Updates the county dropdown based on the selected state.
  - Plot Rendering: Creates interactive plots using plotly to display trends in home values, incomes, poverty rates, and demographic changes.
