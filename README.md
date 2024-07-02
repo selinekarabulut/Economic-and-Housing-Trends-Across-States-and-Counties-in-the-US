@@ -26,12 +26,12 @@ This Shiny application is designed to visualize and analyze socioeconomic and ho
     - About Tab: Provides information about the data sources, calculations, and the purpose of the dashboard.
 
 - Server Logic:
- - Data Loading and Reshaping: Loads the dataset and reshapes it to have a unified Year column.
- - Dynamic UI Updates: Updates the county dropdown based on the selected state.
- - Plot Rendering: Creates interactive plots using plotly to display trends in home values, incomes, poverty rates, and demographic changes.
- - Summary Statistics: Calculates and displays percentage and absolute changes in key indicators.
- - Regression Analysis: Allows for dynamic regression plots based on user-selected variables and regression type.
- - Data Download: Provides functionality to download the filtered data.
+  - Data Loading and Reshaping: Loads the dataset and reshapes it to have a unified Year column.
+  - Dynamic UI Updates: Updates the county dropdown based on the selected state.
+  - Plot Rendering: Creates interactive plots using plotly to display trends in home values, incomes, poverty rates, and demographic changes.
+  - Summary Statistics: Calculates and displays percentage and absolute changes in key indicators.
+  - Regression Analysis: Allows for dynamic regression plots based on user-selected variables and regression type.
+  - Data Download: Provides functionality to download the filtered data.
 
 ## What Can Be Seen
 - Trends Over Time: Users can see how median home values, median incomes, and demographic percentages have changed over time for a selected county within a state.
